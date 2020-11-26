@@ -4,3 +4,6 @@ members = [
     "postgres",
     "redis",
 ]
+
+[patch.crates-io]
+redis = { git = "https://github.com/galgus/redis-rs.git", branch = "fix_decode" }
