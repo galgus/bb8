@@ -18,4 +18,4 @@ redis = { version = "0.17.1-alpha.0", default-features = false, features = ["clu
 
 [dev-dependencies]
 futures-util = "0.3"
-tokio = { version = "0.2", features = ["macros"] }
+tokio = { version = "0.3", features = ["macros"] }
