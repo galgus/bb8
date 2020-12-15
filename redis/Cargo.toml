@@ -14,7 +14,7 @@ edition = "2018"
 [dependencies]
 async-trait = "0.1"
 bb8 = { version = "0.5.0", path = "../bb8" }
-redis = { version = "0.17.1-alpha.0", default-features = false, features = ["cluster", "tokio-comp"] }
+redis = { version = "0.18.1-alpha.0", default-features = false, features = ["cluster", "tokio-comp"] }
 
 [dev-dependencies]
 futures-util = "0.3"
